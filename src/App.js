@@ -1,5 +1,5 @@
 import React from "react";
-import Header from './components/Top/Header';
+import Menu from './components/Top/Menu';
 import Footer from './components/Bottom/Footer';
 import FooterInfo from './components/Bottom/FooterInfo';
 import Contact from './components/Bottom/Contact';
@@ -17,9 +17,9 @@ const App = () => {
     {id: 'submarine', name: 'Submarine'}]
   return (
     <div>
-      <Header />
+      <Menu />
       <Master />
-      <Portfolio />
+      <Portfolio items={portfolioItems}/>
       <About />
       <Contact />
       <FooterInfo />

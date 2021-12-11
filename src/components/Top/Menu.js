@@ -1,4 +1,4 @@
-const Header = () => (
+const Menu = () => (
   <nav
     className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
     id="mainNav"
@@ -42,4 +42,4 @@ const Header = () => (
   </nav>
 );
 
-export default Header;
+export default Menu;
