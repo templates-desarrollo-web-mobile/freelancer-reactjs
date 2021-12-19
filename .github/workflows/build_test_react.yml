@@ -32,14 +32,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: bahmutov/npm-install@v1
-        with:
-          useRollingCache: true
       - name: npm ci, build, test and deploy
         run: |
           npm ci
           npm test   
-          npm run build --if-present
-          git config --global user.email "mugan86@gmail.com"
-          git config --global user.name "Anartz Mugika Ledo"
-          npx gh-pages -d build   
+          npm run build --if-present  
