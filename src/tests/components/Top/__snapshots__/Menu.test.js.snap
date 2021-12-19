@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en "Footer" Debe de mostrar correctamente el componente 1`] = `
+<nav
+  className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+  id="mainNav"
+>
+  <div
+    className="container"
+  >
+    <a
+      className="navbar-brand"
+      href="#page-top"
+    >
+      Start Bootstrap
+    </a>
+    <button
+      aria-controls="navbarResponsive"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+      className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+      data-bs-target="#navbarResponsive"
+      data-bs-toggle="collapse"
+      type="button"
+    >
+      Menu
+      <i
+        className="fas fa-bars"
+      />
+    </button>
+    <MenuItems
+      items={
+        Array [
+          Object {
+            "id": "portfolio",
+            "title": "Portfolio",
+          },
+          Object {
+            "id": "about",
+            "title": "About",
+          },
+          Object {
+            "id": "contact",
+            "title": "Contact",
+          },
+        ]
+      }
+    />
+  </div>
+</nav>
+`;

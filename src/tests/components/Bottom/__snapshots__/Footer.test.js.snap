@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en "Footer" Debe de mostrar correctamente el componente 1`] = `
+<div
+  className="copyright py-4 text-center text-white"
+>
+  <div
+    className="container"
+  >
+    <small>
+      Copyright © Your Website 2021
+    </small>
+  </div>
+</div>
+`;

@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en "Master" Debe de mostrar correctamente el componente 1`] = `
+<header
+  className="masthead bg-primary text-white text-center"
+>
+  <div
+    className="container d-flex align-items-center flex-column"
+  >
+    <img
+      alt="..."
+      className="masthead-avatar mb-5"
+      src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg"
+    />
+    <h1
+      className="masthead-heading text-uppercase mb-0"
+    >
+      Start Bootstrap
+    </h1>
+    <div
+      className="divider-custom divider-light"
+    >
+      <div
+        className="divider-custom-line"
+      />
+      <div
+        className="divider-custom-icon"
+      >
+        <i
+          className="fas fa-star"
+        />
+      </div>
+      <div
+        className="divider-custom-line"
+      />
+    </div>
+    <p
+      className="masthead-subheading font-weight-light mb-0"
+    >
+      Graphic Artist - Web Designer - Illustrator
+    </p>
+  </div>
+</header>
+`;

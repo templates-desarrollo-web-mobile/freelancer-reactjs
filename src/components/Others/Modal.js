@@ -51,12 +51,14 @@ const Modal = ({ icon, itemNumber }) => (
                 </p>
                 <button
                   className="btn btn-primary"
-                  href="#!"
                   data-bs-dismiss="modal"
+                  type="button"
+                  aria-label="Close"
                 >
                   <i className="fas fa-times fa-fw"></i>
                   Close Window
                 </button>
+                
               </div>
             </div>
           </div>

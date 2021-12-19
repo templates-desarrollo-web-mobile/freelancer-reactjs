@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en "App" Debe de mostrar correctamente el componente 1`] = `
+<div>
+  <Menu />
+  <Master />
+  <Portfolio
+    items={
+      Array [
+        Object {
+          "id": "cabin",
+          "name": "Log Cabin",
+        },
+        Object {
+          "id": "cake",
+          "name": "Tasty Cake",
+        },
+      ]
+    }
+  />
+  <About />
+  <Contact />
+  <FooterInfo />
+  <Footer />
+  <Modal
+    icon={
+      Object {
+        "id": "cabin",
+        "name": "Log Cabin",
+      }
+    }
+    itemNumber={1}
+    key="cabin"
+  />
+  <Modal
+    icon={
+      Object {
+        "id": "cake",
+        "name": "Tasty Cake",
+      }
+    }
+    itemNumber={2}
+    key="cake"
+  />
+</div>
+`;
+
+exports[`Pruebas en "App" Debe mostrar todos los componentes asociados 1`] = `
+<div>
+  <Menu />
+  <Master />
+  <Portfolio
+    items={
+      Array [
+        Object {
+          "id": "cabin",
+          "name": "Log Cabin",
+        },
+        Object {
+          "id": "cake",
+          "name": "Tasty Cake",
+        },
+      ]
+    }
+  />
+  <About />
+  <Contact />
+  <FooterInfo />
+  <Footer />
+  <Modal
+    icon={
+      Object {
+        "id": "cabin",
+        "name": "Log Cabin",
+      }
+    }
+    itemNumber={1}
+    key="cabin"
+  />
+  <Modal
+    icon={
+      Object {
+        "id": "cake",
+        "name": "Tasty Cake",
+      }
+    }
+    itemNumber={2}
+    key="cake"
+  />
+</div>
+`;
